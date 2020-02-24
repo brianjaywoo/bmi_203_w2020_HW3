@@ -5,7 +5,7 @@ Status](https://travis-ci.org/brianjaywoo/bmi_203_w2020_hw3.svg?branch=master)](
 
 ```
 
-## Using skeleton
+##  Using skeleton
 
 To use the package, first make a new conda environment and activate it
 

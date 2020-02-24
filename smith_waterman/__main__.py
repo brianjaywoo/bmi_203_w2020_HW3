@@ -30,7 +30,7 @@ input_matrix = BLOSUM_reader (sys.argv[3])
 #Read input system arguments and return in proper format
 print('input seq1 looks like', seq1)
 print('input seq2 looks like', seq2)
-print('the input amino acid reisdue match matrix looks like', input_matrix[0], input_matrix[1])
+print('the input amino acid residue match matrix looks like', input_matrix[0], input_matrix[1])
 
 # Initialize the scoring matrix.
 score_matrix, max_pos, max_score = create_score_matrix(seq1, seq2, input_matrix)
