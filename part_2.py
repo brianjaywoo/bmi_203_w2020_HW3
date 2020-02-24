@@ -109,7 +109,7 @@ if logic == '-E':
 
         #If no termination: iterate again. Repopulate the selected individuals using
         #a combination of recombination (of two individuals) and mutation.
-
+        
         #Lose the scores at this point; get a list of score matrices again
         populations = repopulate (populations)
         fitness = []
