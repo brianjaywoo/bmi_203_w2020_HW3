@@ -34,4 +34,6 @@ def BLOSUM_reader (BLOSUM):
             assert (len(scores) == len(aa_names), 'The length of each BLOSUM score row should match the length of the amino acid residue names.')
 
     BLOSUM_df = pd.DataFrame(numeric_indices, columns = aa_names, index = aa_names)
+
+    #Return the input scoring matrix 
     return BLOSUM_df
